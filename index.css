@@ -1,0 +1,63 @@
+body {
+  width:100%;
+  height:100%;
+  text-align: center;
+  margin: 0 auto;
+  background: #fffddd
+  
+}
+
+.pomo_app {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  background: #47C7FC;
+  width: 25%;
+  height: 16em;
+}
+
+.pomo_header {
+  width: 100%;
+  text-align: center;
+  color:#405ce6;
+  font-weight:bold;
+}
+
+.pomo_main {
+  width:100%;
+}
+
+.btns {
+  position: absolute;
+  top: 80%;
+  left:50%;
+  transform: translateX(-50%);
+}
+.times {  
+  color: white;
+  font-size: 4.5rem;
+  font-weight: 400;
+  display: none;
+}
+.times > * {
+  
+}
+.timer_repeat {
+  width: 1.8em;
+  text-align: center;
+}
+.timer_play {
+  color: blue;
+  display: block;
+}
+.timer_stop {
+  color: red;
+  display: none;
+}
+.timer_play:hover,
+.timer_stop:hover {
+  cursor:pointer;
+}

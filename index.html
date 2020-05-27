@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>POMODORO</title>
+</head>
+
+<body>
+  <div class="pomo_app">
+    <!-- <div class="pomo_header">POMODORO TIMER</div>
+    <hr /> -->
+    <div class="pomo_main">
+      <div class="pomo_set">
+        집중 :
+        <select class="pocus_time">
+          <option value="1">1분</option>
+          <option value="25">25분</option>
+          <option value="50">50분</option>
+        </select>
+        <br />
+        휴식 :
+        <select class="rest_time">
+          <option value="1">1분</option>
+          <option value="10">10분</option>
+          <option value="15">15분</option>
+        </select>
+        <div > 반복 : <input class="timer_repeat" type="number" value=1>회</div>
+      </div>
+      <div class="times"><span class="time_min">00</span>:<span class="time_sec">00</span></div>
+    </div>
+    <div class="btns">
+      <span class="timer_play" onclick="playbtn_click()">▶</span>
+      <span class="timer_stop" onclick="stopbtn_click()">┃┃</span>
+    </div>
+
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
